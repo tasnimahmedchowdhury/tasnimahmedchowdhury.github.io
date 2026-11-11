@@ -1,43 +1,36 @@
-# Tasnim Ahmed Chowdhury — Digital Portfolio
+# Tasnim Ahmed Chowdhury — Portfolio (v2)
 
-A responsive, single-page portfolio made from your uploaded CS resume. No framework, build tools, hosting subscription, or third-party JavaScript required. Includes light/dark theme, mobile navigation, and a downloadable **public-safe** CV (phone number removed).
+A responsive, accessible, no-dependency HTML/CSS/JavaScript portfolio, designed for GitHub Pages. Includes a public-safe résumé PDF with the phone number removed.
 
-## Preview locally
+## Publish / update
 
-Open `index.html` in Chrome, Edge, Firefox, or another browser. Everything works without a web server.
+This package is designed for your existing GitHub Pages repository: `tasnimahmedchowdhury.github.io`.
 
-## Publish FREE with GitHub Pages (recommended)
+1. **Back up your existing files** or rely on GitHub history to restore them.
+2. Extract the ZIP file. Upload the **contents** to the repository root (not the ZIP and not a nested folder). Your root should contain `index.html`, `favicon.svg`, `social-preview.png`, `README.md`, and `Tasnim_Ahmed_Chowdhury_Resume_Public.pdf`.
+3. GitHub will show files that already exist as replacements. Commit the updated files.
+4. With GitHub Pages set to **Deploy from a branch → main → / (root)**, GitHub republishes the site at `https://tasnimahmedchowdhury.github.io/`.
+5. Hard-refresh (Ctrl+Shift+R) and test the résumé, GitHub, mobile navigation, and email links.
 
-1. Sign in to your GitHub account.
-2. Click **New repository** and name it `tasnimahmedchowdhury.github.io` (exactly your GitHub username followed by `.github.io`).
-3. Choose **Public**, then **Create repository**.
-4. Select **Add file → Upload files**. Upload `index.html`, `favicon.svg`, and the entire `assets` folder **from inside this zip**, keeping those file paths exactly the same.
-5. Click **Commit changes**.
-6. Go to **Settings → Pages**. Under **Build and deployment**, choose **Deploy from a branch**; select `main` and `/ (root)`, then Save. (GitHub may already use Pages automatically for this repository name.)
-7. Wait for publishing. Your site should be available at `https://tasnimahmedchowdhury.github.io/`. Open it to check everything and then paste **that website URL** into the AI Leaders "Link to your digital portfolio" field.
+## Where to edit
 
-If you already use a repository with that name, create a new public repository `portfolio` and publish its `main` branch instead; your URL will then usually be `https://tasnimahmedchowdhury.github.io/portfolio/`.
+- All page wording, styles, and interactions: `index.html`.
+- Icon: `favicon.svg`.
+- Share preview: `social-preview.png`.
+- Public résumé: `Tasnim_Ahmed_Chowdhury_Resume_Public.pdf`.
 
-Important: The website **is not live** merely because this ZIP was created. You need to publish it using the steps above.
+Use GitHub's edit page or a local code editor. Commit changes to publish.
 
-## Edit your portfolio
+## Content accuracy
 
-Open `index.html` in VS Code or another text editor. Most content can be changed directly by searching for the heading (e.g. `Featured`, `Certificates`, or `About`).
+- Selected work includes publicly documented Git practice and this portfolio.
+- Future interests (C/C++, embedded/Edge AI) are described as learning goals, not proficiency.
+- GCI World student training is **in progress**, separately from **Silver Ambassador** recognition.
+- Silver DofE is **in progress**, Bronze is completed.
+- This site's description discloses AI assistance in its creation.
 
-- Update the text when you complete new projects. The two smaller project cards are intentionally labeled **current learning** and **future direction**, so they do not pretend you have finished things you haven't.
-- The public resume in `assets/` has the phone number removed. Keep the original private resume separately for direct applications.
-- Links use the GitHub address and email already present in your supplied CV. Check them after publishing.
-- No phone number or birth date is shown publicly.
-- The footer year updates automatically.
+## Accessibility and technology
 
-## Included files
+Static HTML/CSS/JS; keyboard focus states, semantic sections, responsive layout, reduced-motion support, accessible navigation and direct links. No frameworks or external fonts/dependencies.
 
-```
-index.html
-favicon.svg
-assets/Tasnim_Ahmed_Chowdhury_Resume_Public.pdf
-```
-
-## Notes
-
-This site is a **static website**, not a WordPress theme. The AI Leaders program may also help you build a separate WordPress portfolio. You can reuse the wording and the project descriptions there, or submit the published GitHub Pages site as your digital portfolio link.
+The design references editorial clarity, usability and restrained interaction seen in recognized portfolio websites, without copying their layouts, content or assets.
