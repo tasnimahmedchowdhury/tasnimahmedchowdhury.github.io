@@ -1,36 +1,34 @@
-# Tasnim Ahmed Chowdhury — Portfolio (v2)
+# Personal Digital Portfolio
 
-A responsive, accessible, no-dependency HTML/CSS/JavaScript portfolio, designed for GitHub Pages. Includes a public-safe résumé PDF with the phone number removed.
+**Website:** https://tasnimahmedchowdhury.github.io/
 
-## Publish / update
+This repository hosts a personal portfolio presenting academic background, verified technical practice, credentials, interests, and contact details.
 
-This package is designed for your existing GitHub Pages repository: `tasnimahmedchowdhury.github.io`.
+## What this website represents
 
-1. **Back up your existing files** or rely on GitHub history to restore them.
-2. Extract the ZIP file. Upload the **contents** to the repository root (not the ZIP and not a nested folder). Your root should contain `index.html`, `favicon.svg`, `social-preview.png`, `README.md`, and `Tasnim_Ahmed_Chowdhury_Resume_Public.pdf`.
-3. GitHub will show files that already exist as replacements. Commit the updated files.
-4. With GitHub Pages set to **Deploy from a branch → main → / (root)**, GitHub republishes the site at `https://tasnimahmedchowdhury.github.io/`.
-5. Hard-refresh (Ctrl+Shift+R) and test the résumé, GitHub, mobile navigation, and email links.
+The website is a **professional online profile**, not a web-development project credited to the portfolio owner. Its layout and code were created using ChatGPT, based on information, direction, feedback, and testing supplied by the owner. It should not be presented as proof that the owner independently designed or programmed this website.
 
-## Where to edit
+## Selected technical work
 
-- All page wording, styles, and interactions: `index.html`.
-- Icon: `favicon.svg`.
-- Share preview: `social-preview.png`.
-- Public résumé: `Tasnim_Ahmed_Chowdhury_Resume_Public.pdf`.
+- **[Git & GitHub Practice Lab](https://github.com/tasnimahmedchowdhury/github-practice)** — documented, hands-on practice with core version-control workflows.
 
-Use GitHub's edit page or a local code editor. Commit changes to publish.
+Only verifiable technical work belongs in the website's **Selected Work** section. The portfolio website itself is intentionally excluded.
 
-## Content accuracy
+## Website structure
 
-- Selected work includes publicly documented Git practice and this portfolio.
-- Future interests (C/C++, embedded/Edge AI) are described as learning goals, not proficiency.
-- GCI World student training is **in progress**, separately from **Silver Ambassador** recognition.
-- Silver DofE is **in progress**, Bronze is completed.
-- This site's description discloses AI assistance in its creation.
+- `index.html` — page markup, styling, and interactive scripts.
+- `favicon.svg` — site icon (kept in the existing repository).
+- `social-preview.png` — link-sharing preview (kept in the existing repository).
+- `Tasnim_Ahmed_Chowdhury_Resume_Public.pdf` — linked public résumé (kept in the existing repository).
 
-## Accessibility and technology
+## Updating and publishing
 
-Static HTML/CSS/JS; keyboard focus states, semantic sections, responsive layout, reduced-motion support, accessible navigation and direct links. No frameworks or external fonts/dependencies.
+1. Edit the relevant file and commit it to the repository's publishing branch (currently expected to be `main`, root directory).
+2. Allow GitHub Pages to deploy the commit.
+3. Refresh the live website and verify the navigation, résumé link, GitHub link, email button, copy-email button, and mobile layout.
 
-The design references editorial clarity, usability and restrained interaction seen in recognized portfolio websites, without copying their layouts, content or assets.
+**Important:** Replacing `index.html` and `README.md` does not require deleting the existing résumé, favicon, or social-preview files. Preserve those assets and their filenames so linked resources continue working.
+
+## Accuracy policy
+
+The website distinguishes completed work from ongoing learning and future interests. Avoid claiming skills, projects, credentials, or experience that cannot be substantiated.
